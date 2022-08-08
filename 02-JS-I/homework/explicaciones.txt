@@ -1,0 +1,79 @@
+Conceptos de programacion
+*********************************
+
+1. Variables (var)
+
+    La palabra var permite definir una variable. Una variable almacena un valor. 
+
+        Ejemplo: 
+
+        var c = 100 
+
+De esta manera cada vez que se necesite utilizar el numero 100 dentro del codigo,
+se puede utilizar directamente la letra c como sustituto.
+
+
+2. String
+
+    Un String es un tipo de dato en el lenguaje javascript. El tipo de dato
+    String corresponde a texto. El texto se escribe entre comillas 'texto' para que javascript lo interprete
+    como un tipo de dato String. 
+
+
+3. Funciones
+
+    Las funciones permiten ahorrar trabajo y tiempo cuando necesitamos repetir ciertas frases o formulas.
+    Dentro de una funcion encontramos tambien los argumentos (que son como variables) que posteriormente
+    podemos reemplazar cuando invoquemos la formula.
+
+    Ejemplo:
+    
+    Creacion de la funcion
+    **********************
+    function nombreFuncion(argumento1, argumento2){
+        formula = argumento1 + argumento2
+        return formula;
+    }
+
+ 
+    Invocando la funcion
+    ********************
+    nombreFuncion(2, 5);
+
+    Debido a que la funcion tiene un return, la misma retorna el resultado de la formula cada vez
+    que la funcion es invocada, en este caso 7. Si no se hubiera incluido el return la
+    funcion retornaria undefined. 
+
+
+4. Declaracion if
+
+    La declaracion if retorna un valor diferente dependiendo de si la condicion es verdadera o falsa.
+
+    Ejemplo:
+
+    if (10 > 9) {
+        console.log('Verdadero');
+    }
+
+    En este ejemplo la condicion es verdadera por lo que retorna el texto 'Verdadero'. No se definio
+    un valor para el caso que la condicion fuera falsa por lo que retornara undefined. Para definir el 
+    valor de la condicion falsa hay que utilizar ademas la expresion else.
+
+
+5. Valores Booleanos True y False
+
+    Cuando realizamos una comparacion entre dos tipos de datos javascript retorna un valor true o un valor
+    false.
+
+    Ejemplos:
+
+    1 == 1
+    true
+
+    1 > 2
+    false
+
+    Cuando utilizamos dos signos == realizamos una comparacion para saber si los numeros son iguales 
+    y por esto nos retorna true.
+    Cuando utilizamos un signo mayor o menor (< o >) realizamos una comparacion para saber si un valor 
+    es mayor o menor que otro y por esto nos retorna false.
